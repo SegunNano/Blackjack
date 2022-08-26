@@ -1,19 +1,22 @@
 body {
     background-image: url(blackjackbg.jpg);
-    background-size: center;
+    background-size: cover;
     background-position: center;
     text-align: center;
-    color: white;
+    color: rgb(43, 43, 43);
     background-repeat: no-repeat;
 }
 h1 {
     color: goldenrod;
     font-size: 3em;
-    background-color: rgba(4, 100, 4, 0.671);
+    /* background-color: rgba(4, 100, 4, 0.671); */
+}
+main {
+    background-color: rgba(255, 255, 255, 0.425);
 }
 
 button {
-    background-color: rgba(218, 165, 32, 0.808);
+    background-color: goldenrod;
     width: 200px;
     aspect-ratio: 3;
     border-radius: 10px;
@@ -51,13 +54,14 @@ button:hover {
 }
 p {
     font-size: 1.2em;
-    background-color: rgba(253, 145, 4, 0.781);
+    /* background-color: rgba(253, 145, 4, 0.781); */
 }
 .chips-el, #cards-el, #sum-el {
     font-size: 1.2em;
     font-style: italic;
-    color: rgba(253, 145, 4, 0.849);
-    background-color: rgba(9, 109, 9, 0.836);
+    color: rgb(12, 110, 42);
+    font-weight: 700;
+    /* background-color: rgba(9, 109, 9, 0.836);     */
 }
 #message-el {
     font-size: 1.5em;
