@@ -1,5 +1,6 @@
+// const inputName = prompt('What is your Name?')
 let player = {
-    names: "Segun",
+    names: prompt('What is your Name?'),
     chips: 2519 
 }
 let cards = []
