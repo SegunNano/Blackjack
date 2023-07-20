@@ -3,16 +3,18 @@ let player = {
     names: prompt('What is your Name?'),
     chips: prompt('How much would you like to deposit?')
 }
+// let chhips = prompt('How much would you like to deposit?')
+// console.log(player.chips)
 let cards = []
-while (chips > 0) {
+let sum = 0
+while (player.chips > 0) {
     const stake = prompt('How much would you like to stake?')
-    if (chips - stake > 0) {
+    if (player.chips - stake > 0) {
         function startGame() {
-
             isAlive = true
             hasBlackJack = false
             let firstCard = getRandonCard()
-            let secondCard = getRandonCard()
+            let secondCard = getRandomCard()
         
             cards = [firstCard, secondCard] // arrays
         
@@ -23,20 +25,20 @@ while (chips > 0) {
         
     }
 }
-// let sum = 0
-// let hasBlackJack = false
-// let isAlive = false
-// let message = ""
-// let messageEl = document.querySelector("#message-el")
-// let sumEl = document.querySelector("#sum-el")  
-// let cardsEl = document.querySelector("#cards-el")
-// let welcomeEl = document.getElementById("welcome-el")
-// let chipsEl = document.querySelector(".chips-el")
 
-// welcomeEl.textContent = "Welcome, " + player.names + "."
-// chipsEl.textContent = "Amount; $" + player.chips
-// console.log(chipsEl)
-// // console.log(cardsEl)
+let hasBlackJack = false
+let isAlive = false
+let message = ""
+let messageEl = document.querySelector("#message-el")
+let sumEl = document.querySelector("#sum-el")  
+let cardsEl = document.querySelector("#cards-el")
+let welcomeEl = document.getElementById("welcome-el")
+let chipsEl = document.querySelector(".chips-el")
+
+welcomeEl.textContent = "Welcome, " + player.names + "."
+chipsEl.textContent = "Amount; $" + player.chips
+console.log(chipsEl)
+// console.log(cardsEl)
 
 //  function getRandonCard () {
 //     let returnNumber = Math.floor(Math.random() * 13 + 1)
