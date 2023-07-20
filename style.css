@@ -1,77 +1,85 @@
 body {
-    background-image: url(blackjackbg.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: rgb(43, 43, 43);
-    background-repeat: no-repeat;
+  background-image: url(blackjackbg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: rgb(43, 43, 43);
+  background-repeat: no-repeat;
 }
 h1 {
-    color: goldenrod;
-    font-size: 3em;
-    /* background-color: rgba(4, 100, 4, 0.671); */
+  color: goldenrod;
+  font-size: 3em;
+  /* background-color: rgba(4, 100, 4, 0.671); */
 }
 main {
-    background-color: rgba(255, 255, 255, 0.425);
+  background-color: rgba(255, 255, 255, 0.425);
 }
 
 button {
-    background-color: goldenrod;
-    width: 200px;
-    aspect-ratio: 3;
-    border-radius: 10px;
-    transition-duration: .5s;
-    border: none;
-    color: rgb(5, 51, 5);
-    font-weight: 900;
-    font-size: 1.5em;
-    margin-left: 2em;
-    margin-right: 2em;
-
+  background-color: goldenrod;
+  width: 200px;
+  aspect-ratio: 3;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  border: none;
+  color: rgb(5, 51, 5);
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 button:hover {
-    color: goldenrod;
-    background-color: white;
-    transform: scale(1.05);
-    border-radius: 0;
-    /* animation-name: bounce;
+  color: goldenrod;
+  background-color: white;
+  transform: scale(1.05);
+  border-radius: 0;
+  /* animation-name: bounce;
     animation-duration: 2s; */
-    position: relative;
+  position: relative;
 }
 .icon {
-    background-image: url(background.png);
-    backdrop-filter: 0;
-    width: 200px;
-    height: 100px;
-    background-position: center;
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
+  background-image: url(background.png);
+  backdrop-filter: 0;
+  width: 200px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
-#welcome-el  {
-    font-size: 2em;
+#welcome-el {
+  font-size: 2em;
 }
 p {
-    font-size: 1.2em;
-    /* background-color: rgba(253, 145, 4, 0.781); */
+  font-size: 1.2em;
+  /* background-color: rgba(253, 145, 4, 0.781); */
 }
-.chips-el, #cards-el, #sum-el {
-    font-size: 1.2em;
-    font-style: italic;
-    color: rgb(12, 110, 42);
-    font-weight: 700;
-    /* background-color: rgba(9, 109, 9, 0.836);     */
+.chips-el,
+#cards-el,
+#sum-el {
+  font-size: 1.2em;
+  font-style: italic;
+  color: rgb(12, 110, 42);
+  font-weight: 700;
+  /* background-color: rgba(9, 109, 9, 0.836);     */
 }
 #message-el {
-    font-size: 1.5em;
-    animation-name: pop;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.01, 0.01, 1, 1.01);
+  font-size: 1.5em;
+  animation-name: pop;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.01, 0.01, 1, 1.01);
 }
 @keyframes pop {
-    0%, 50%, 100% {transform:scale(1);}
-    25%, 75% {transform: scale(1.05);}
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  25%,
+  75% {
+    transform: scale(1.05);
+  }
 }
